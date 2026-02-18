@@ -37,3 +37,19 @@ let item: Product = {
 };
 
 console.log(item);
+//  arrow
+const multiply = (x: number, y: number): number => {
+    return x * y;
+};
+
+// fun return string
+function greet(name: string): string {
+    return `Hello ${name}`;
+}
+
+console.log(greet("Hema"));
+
+//  void no retun value
+function printMessage(message: string): void {
+    console.log(message);
+}
